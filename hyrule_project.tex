@@ -1,21 +1,16 @@
-% Changing book to article will make the footers match on each page,
-% rather than alternate every other.
-%
-% Note that the article class does not have chapters.
 \documentclass[10pt,twoside,twocolumn,openany]{book}
 \usepackage[bg-letter]{dnd} % Options: bg-a4, bg-letter, bg-full, bg-print, bg-none.
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+
 % Start document
 \begin{document}
 \fontfamily{ppl}\selectfont % Set text font
 
-% Your content goes here
-
-% Comment this out if you're using the article class.
 \chapter{Hyrule Races}
 
+% Goron race
 \section{Goron}
 
 \subsection{Physiology}
@@ -26,7 +21,7 @@ Gorons only possess one apparent sex, which they universally refer to as male. "
 
 \subsection{Society}
 Goron cities and villages are almost universally built into caves or the sides of mountains, where the tastiest and most nutritious rocks are abundant. Their reliance on 
-\includegraphics{darunia.jpg} \\
+\includegraphics[width=100mm,scale=0.5]{daruk.png} \\
 eating rocks makes their cultures particularly dependent on mining to survive, to the extent that the majority of gorons have experience in this profession. Many anthropologists believe gorons evolved to be as physically powerful and enduring as they are due to their race's inherent dependency on mining. Stronger gorons with greater strength made better miners, which enabled them to better survive and provide for their kin.\\
 Due to their mining dependency, goron culture heavily involves stonework and the working of metals. Blacksmiths are abundant among them, and their structures are constructed almost entirely of metal. They're also one of few races that has widely adapted the use of blackpowder, and when in battle they often make use of bombs or other explosives. Their resistance to heat gives them an edge over most foes when using such powerful, but esoteric weapons.\\
 Gorons almost always place a high degree of value on physical strength and stamina, pride, honesty, and trustworthiness. Gorons most readily get along with races which share these values, usually including the like of subrosians, rito, and most hylians. A friend is rarely lost on a goron unless that friend is caught in a lie. Unsurprisingly, gorons often have a difficult time with people from less prideful cultures.
@@ -58,6 +53,8 @@ Built like mountains, eating rocks, and wading through lava — gorons are nothi
 \end{dndtable}
 \indent \textbf{Rock Gourmet.} You are able to eat half a pound of rock instead of consuming a portion of rations whenever you feel hungry.\\
 \indent \textbf{Languages.} You can speak, read, and write Common and Goro.
+
+% Zora race
 \newpage
 \section{Zora}
 
@@ -66,21 +63,19 @@ Built like mountains, eating rocks, and wading through lava — gorons are nothi
 Amphibious, fish-like humanoids, zora have sleek and glistening bodies. Zora rarely breed, but when they do, they have offspring in batches of eggs ranging from 1 to 8, which grow into tadpoles, and eventually amphibious humanoids. Zora age at a slow rate compared to hylians, but have a growth spurt and reach adulthood around the age of 20, reach middle age at about 100 years, and can occasionally live to be more than 200.
 The exact shape and demeanor of zora is heavily dependent on the two subraces: sea zora, and river zora. "Sea zora" have evolved to live in deeper saltwater, and "river zora" have evolved to live in shallower freshwater, but modern zora of either variety can be found in either habitat.\\
 Sea zora are taller and more slender, and have a pale white chest and face, with a backside of a darker color—usually blue, but occasionally red, gray, brown, or other colors. The shape of a sea zora's head varies widely, but usually has a backside resembling some variety of fish tail, with fins that further aid its ability to swim.\\
-River zora are squatter and wider, though still slightly larger than hylians on average. Their scales are a blush-green color that blends well into seaweed and shallow rivers, but their heads feature orange fins and lips.
 
 \subsection{Society}
 
 Due to their amphibious nature, zora villages are most often built along coastlines, rivers, lakes, and other areas that blend shallow water with nearby land. This enables them to effectively evade and defend against predators that are exclusive to land or sea, and hunt more effectively from both sources. Zora usually wear a small amount of jewelry or armor, but less clothing than races such as hylians or rito, as excess clothing hampers their ability to swim.\\
 A given zora tribe is usually ruled by a royal family of zora, to which the tribe is loyal for generations. The current monarch of a tribe is often referred to with a title such as "King Zora" or "Queen Zora" than his or her actual name.\\
-River zora are more hostile to outside races, including sea zora. They have an instinctive desire to aggressively defend what waters they call their own, and will attack any foreign entities with blasts of fire without hesitation. The rare outsider who can gain the trust of a river zora tribe will find they are not murderers nor thieves, but are in fact quite friendly to their allies.\\
-Sea zora are comparatively more accepting, and their royal families are usually allies with the royal families of hylians. They frequently intermingle with other races who live on coastlines, and are renowned for their unique \\
-\includegraphics{zora.png} \\
-style of music.
+Royal families are usually allies with the royal families of hylians. They frequently intermingle with other races who live on coastlines, and are renowned for their unique style of music.
 
 \subsection{Zora Names}
 
 \textbf{Male:} Cleff, Japas, Mikau, Ralis, Sidon, Tijo, Toto \\
 \textbf{Female:} Laruto, Lulu, Mipha, Oren, Rutela, Ruto 
+
+\includegraphics[width=65mm,scale=0.5]{mipha.png} \\
 
 \subsection{Zora Traits}
 Zora claim the title of the only truly amphibious race in Hyrule — and are the second most populous, exceeded only by hylians.\\
@@ -97,7 +92,57 @@ Zora claim the title of the only truly amphibious race in Hyrule — and are the
 \indent \textbf{Lightning Field.} You can cast the lightning field cantrip. Wisdom is your casting ability for this spell. \\
 \indent \textbf{Ancestral Arms.} You have proficiency with the arm blade, pike, net, spear, and trident. If you otherwise gain proficiency with spears or tridents, you gain a +1 bonus on damage rolls with these weapons.\\
 \indent \textbf{Languages.} You can speak, write, and read Common and Zoran.
+\newpage
+% Korok race
 
+\section{Korok}
+
+\subsection{History}
+
+According to legend, koroks were originally created many eons ago by the Great Deku Tree to spread plant life across the entire world. This legend portends that every tree which still grows can trace its ancestry back to a seed planted by a korok. Regardless of whether or not this is true, modern koroks are clearly magical creatures not directly related to any other races, and they retain an unusually profound understanding of the natural world.\\
+Despite the innate curiosity of koroks, they are dissuaded by the Deku Tree from leaving the forest unless they have an important reason to do so. Indeed, the world outside the woods is dangerous to a typical korok. In the modern world, few people who dwell outside of forests know much of this race. They are so rare, so bizarre, and so elusive that they are frequently delegated to myth.
+
+\subsection{Physiology}
+
+A typical korok stands between 2 and 3 feet, with an oblong body composed of hollow wood, and particularly short limbs. Indeed, koroks are extremely lightweight and buoyant.\\
+A korok's face is most unusual. If left unadorned, a korok face is comprised only of a nose-like stick protruding outward. Almost every korok will instead construct a mask to serve as its apparent face. This mask almost always is comprised of a large leaf with holes cut into it—one hole to anchor the mask on its "nose," two holes to serve as "eyes," and finally one to serve as a "mouth." Koroks seemingly have no physical need to construct these masks, but it is done in part so they can express their personality and in part so koroks can better recognize each other. Koroks tend to be very fascinated by creatures who are naturally more expressive than themselves, and it seems these masks are modeled after such creatures.\\
+Although koroks can be created by the Deku Tree's magic, they can also reproduce on their own, unlike kokiri. A korok can produce more koroks simply by planting seeds and caring for them until they grow to maturity, although this is a relatively rare practice performed only a few times in a korok's long lifespan. Despite technically being parent and child, these two koroks would consider themselves more akin to an older sibling and a younger one.\\
+A korok reaches its full size less than two years after being planted, and usually gains mobility a long time before that. The earliest a korok can produce a seed of its own seems to be about 2 or 3 years, but it will often live for decades before it decides to do so.\\
+\includegraphics[width=100mm,scale=0.5]{makar.png} \\
+As they don't produce sexually, koroks don't have traditional genders. They don't truly consider themselves male, unlike the all-male goron race, but usually default to male pronouns anyway.
+
+\subsection{Society}
+
+Koroks tend to be very optimistic, curious, altruistic, excitable, energetic, and playful.\\
+They predominantly live in forests protected by the Great Deku Tree, often among kokiri, and usually only leave these woodlands temporarily. Much like kokiri, they are considered the "children" of the Deku Tree. They are much more widespread than kokiri, however, likely due to the fact they can reproduce on their own.\\
+A korok's needs and therefore its responsibilities are simple. It doesn't require food, can fly or hide from most herbivores, can sleep almost anywhere, and doesn't need to care for its young nor bother much with reproduction. A korok is nonetheless restless and eager to do something—anything. Thus, a typical korok often occupies much of its time playing elaborate games, or exploring the vast wilderness of Hyrule. Many pursue a self-learned art, profession, or expertise—something it can master over the many years it lives. When the Deku Tree has a job that needs doing, there's always at least one korok eager to do it.\\
+Perhaps because of this energetic nature, the surprisingly few times koroks interact with races outside the forest, they are nothing but helpful. Many a legend has been told of these altruistic but secretive creatures—completing chores will hylians sleep, saving children from wells, and so on.\\
+
+\subsection{Korok Names}
+
+Korok names tend to be rather short, rarely comprised of more than two brief syllables.\\
+\textbf{Examples:} Aldo, Chio, Daz, Drona, Elma, Hestu, Hollo, Irch, Kula, Linder, Maca, Makar, Oakin, Olivio, Pepp, Peeks, Natie, Rown, Walton 
+
+\subsection{Korok Traits}
+
+Small, peaceful, immortal, and child-like plant creatures. They aren't much for combat or stealth, but it's hard not to smile around them.\\
+\indent \textbf{Ability Score Increase.} Both your Charisma and Dexterity scores increase by 2.\\
+\indent \textbf{Age.}Age. A korok reaches physical maturity after less than 2 years, but can live for up to 200 years or more. It retains a childlike innocence throughout its entire life.\\
+\indent \textbf{Alignment.} Koroks strive to populate the world with trees, preserve life, and are eagerly help anyone who needs it. They have an extreme tendency towards all forms of good.\\
+\indent \textbf{Size.} A typical korok’s height averages about 3 feet. Your size is Small.\\
+\indent \textbf{Speed.} Your base walking speed is 25 feet.\\
+\indent \textbf{Type.} You are considered both a humanoid and a plant for any effect relating to your type.\\
+\indent \textbf{Natural Cantrip.} You know the druidcraft cantrip.\\
+\indent \textbf{Jingle.} Your body produces an unusual jingling noise whenever you move, which grows louder the more violently you move. You have disadvantage on Dexterity (Stealth) checks to move quietly.\\
+\indent \textbf{Fire Vulnerability.} You are vulnerable to all sorts of fire damage. \\
+\indent \textbf{Korok Copter.} As an action, you can grow from your wrist a magical plant that is as tall as your body, and adorned with a pair of spinning wings. You can control the wings of this plant in such a way that you effectively gain a flying speed of 25 feet. Maintaining flight requires dedication from this hand, preventing that hand from being used for anything else, but otherwise maintaining flight or hovering in place is effortless for you. You can detach the magical plant as an action or bonus action, which causes it to wither away into ash almost instantly. Until you dismiss the plant, it is considered part of your body, and any damage dealt to it is dealt to you.\\
+\indent \textbf{Natural Performer.} You are proficient in both the Performance and the Nature skills. Additionally, you can survive without food, so long as you have water, sunlight, and air.\\
+\indent \textbf{Ancient Knowledge.} You gain proficiency in one of the following skills: Arcana, History, Medicine, Performance, or Religion. Alternatively, you can gain proficiency in any one tool.\\
+\indent \textbf{Tool Proficiency.} Most koroks adapt to a particular profession. You gain proficiency in one artisan's tool or one musical instrument of your choice.\\
+\indent \textbf{Nature's Guise.} You can attempt to hide when surrounded by any area that is filled with trees or even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.\\
+\indent \textbf{Languages.} You can speak, write and read both Common and Deku.
+
+% Spells from the world of Hyrule
 \chapter{Hyrule Spells}
 %The spells are presented in alphabetical order.
 
